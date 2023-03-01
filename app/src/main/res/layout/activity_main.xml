@@ -15,4 +15,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSecond"
+        android:text="second"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        app:layout_constraintEnd_toEndOf="@+id/second"
+        app:layout_constraintStart_toStartOf="@+id/second"
+        app:layout_constraintTop_toBottomOf="@+id/second" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

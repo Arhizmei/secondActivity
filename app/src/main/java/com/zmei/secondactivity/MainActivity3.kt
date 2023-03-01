@@ -16,9 +16,4 @@ class MainActivity3 : AppCompatActivity() {
     startActivity(intent)
     }
 
-    fun onClickSecond (view : View) {
-
-        val intent = Intent(this, SecondActivity::class.java)
-        startActivity(intent)
-    }
 }
